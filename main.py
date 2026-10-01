@@ -1,3 +1,13 @@
 import random
 game_number = random.randit(1,10)
 print(game_number)
+  
+while(True):
+  guess=int(input("Guess a number between 1 and 10:"))
+    if guess>game_number:
+        print("To High")
+    elif guess<game_number:   
+        print("to low")
+    else:
+        print("niceeee u absolute brilliant guy")
+        break
