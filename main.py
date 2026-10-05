@@ -1,5 +1,5 @@
 import random
-game_number = random.randit(1,10)
+game_number = random.randint(1,10)
 print(game_number)
   
 while(True):
